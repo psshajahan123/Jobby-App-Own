@@ -1,6 +1,9 @@
 import {AiFillStar} from 'react-icons/ai'
+
 import {Link} from 'react-router-dom'
+
 import {HiLocationMarker, HiMail} from 'react-icons/hi'
+
 import './index.css'
 
 const JobCard = props => {

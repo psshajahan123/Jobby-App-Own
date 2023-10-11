@@ -1,5 +1,7 @@
 import Header from '../Header'
 
+import './index.css'
+
 const Home = props => {
   const {history} = props
 
@@ -14,7 +16,7 @@ const Home = props => {
       <div className="app-info-container">
         <h1 className="app-info-heading">Find The Job That Fits Your Life.</h1>
         <p className="app-info-para">
-          Millions of People are searching for job,salary information, company
+          Millions of people are searching for jobs,salary information, company
           reviews. Find the job that fits your abilities and potential.
         </p>
         <button onClick={onClickOfFindJobs} type="button">

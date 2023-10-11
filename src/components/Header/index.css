@@ -50,6 +50,7 @@
 .home-jobs-sm-nav-icons-container {
   display: flex;
   flex-direction: row;
+  list-style-type: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -58,9 +59,15 @@
   }
 }
 
+.home-jobs-lg-nav-items-container {
+  list-style-type: none;
+  display: flex;
+}
+
 @media screen and (max-width: 767px) {
   .home-jobs-lg-nav-items-container {
     display: none;
+    list-style-type: none;
   }
 }
 

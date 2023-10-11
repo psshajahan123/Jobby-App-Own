@@ -1,5 +1,7 @@
 import {Link, withRouter} from 'react-router-dom'
+
 import './index.css'
+
 import Cookies from 'js-cookie'
 
 const Header = props => {
@@ -16,19 +18,20 @@ const Header = props => {
       <Link to="/">
         <img
           src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
-          alt="logo img"
+          alt="website logo"
           className="header-logo-img"
         />
       </Link>
-      <div className="home-jobs-lg-nav-items-container">
-        <Link to="/" className="nav-link">
-          Home
+      <ul className="home-jobs-lg-nav-items-container">
+        <Link to="/">
+          <li className="nav-link">Home</li>
         </Link>
-        <Link to="/jobs" className="nav-link">
-          Jobs
+        <Link to="/jobs">
+          <li className="nav-link">Jobs</li>
         </Link>
-      </div>
-      <button className="logout-btn" onClick={logoutFromApp}>
+        <li className="nav-link">Profile</li>
+      </ul>
+      <button type="button" className="logout-btn" onClick={logoutFromApp}>
         Logout
       </button>
     </div>
