@@ -1,0 +1,13 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #fff;
+}
+.paragraph {
+  color: #cbd5e1;
+}
